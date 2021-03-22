@@ -45,11 +45,7 @@ export default {
     name: String,
   },
   created() {
-
-    if (
-      this.name == "Feature"
-       && sessionStorage.length == 0
-    ) {
+    if (this.name == "Feature" && sessionStorage.length == 0) {
       sessionStorage.setItem("isSelectSideBar", "1");
       sessionStorage.setItem("isSelectSector", "1");
       this.isSelect = sessionStorage.getItem("isSelectSideBar");
