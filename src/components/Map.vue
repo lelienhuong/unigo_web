@@ -102,7 +102,6 @@ export default {
     drawLine() {
       $(function () {
         var data = JSON.parse(sessionStorage.getItem("dataNodes")); //sessionStorage.getItem("dataNodes");
-        alert(data[0].x);
         for (var i = 0; i < data.length - 1; i++) {
           var canvas = document.getElementById("myCanvas");
           // Chọn đối tượng vẽ 2D

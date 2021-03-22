@@ -10,7 +10,7 @@
       >
         <img
           :style="isSelect == index + 1 ? selectedColorImg : defaultColorImg"
-          src="../assets/img/nhaxe.png"
+          :src= "cateInfo.pathIcon"
           style="margin-right: 5px"
           width="20px"
           height="20px"

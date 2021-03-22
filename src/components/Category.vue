@@ -15,37 +15,37 @@ export default {
       CateData: {
         data:[{
           cate: "Tra cứu map",
-          pathIcon: "/img/Vector.70e926dd.svg",
+          pathIcon: require('../assets/img/nhaxe.png'),
           pathCate: "tra-cuu-map",
         },
         {
           cate: "Dẫn đường",
-          pathIcon: "/img/direct.png",
+          pathIcon: require('../assets/img/direct.png'),
           pathCate: "dan-duong",
         },
         {
           cate: "Tra cứu thông tin học phần",
-          pathIcon: "/img/Vector.70e926dd.svg",
+          pathIcon: require('../assets/img/subject.png'),
           pathCate: "hoc-phan",
         },
         {
           cate: "Tra cứu thông tin sự kiện",
-          pathIcon: "/img/Vector.70e926dd.svg",
+          pathIcon: require('../assets/img/event.png'),
           pathCate: "su-kien",
         },
         {
           cate: "Hướng dẫn sử dụng",
-          pathIcon: "/img/Vector.70e926dd.svg",
+          pathIcon: require('../assets/img/instruction.png'),
           pathCate: "huong-dan",
         },
         {
           cate: "Về chúng tôi",
-          pathIcon: "/img/Vector.70e926dd.svg",
+          pathIcon: require('../assets/img/aboutus.png'),
           pathCate: "chung-toi",
         },
         {
           cate: "Góp ý",
-          pathIcon: "/img/Vector.70e926dd.svg",
+          pathIcon: require('../assets/img/advice.png'),
           pathCate: "gop-y",
         },
         ]
